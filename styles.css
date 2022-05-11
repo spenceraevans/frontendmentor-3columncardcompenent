@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ## Colors */
+    /* ### Primary */
+
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* ### Neutral */
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75); /* (paragraphs) */
+    --very-light-gray: hsl(0, 0%, 95%); /* (background, headings, buttons) */
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* Cards */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 25%;
+    padding: 3rem;
+}
+
+.sedan {
+    background-color: var(--bright-orange);
+    border-radius: 2% 0 0 2%;
+}
+.suv {
+    background-color: var(--dark-cyan);
+}
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 2% 2% 0;
+}
+
+/* icons */
+
+img {
+    width: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+/* Text */
+
+h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: var(--very-light-gray);
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    color: var(--transparent-white);
+    padding-right: 3.5rem;
+    line-height: 1.8rem;
+    font-size: 15px;
+}
+
+/* Learn More Btn */
+
+button {
+    background-color: var(--very-light-gray);
+    border: 2px solid var(--very-light-gray);
+    width: 9rem;
+    margin-top: 5rem;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--very-light-gray);
+}
+
+.sedan-btn {
+    color: var(--bright-orange)
+}
+
+.suv-btn {
+    color: var(--dark-cyan);
+}
+
+.lux-btn {
+    color: var(--very-dark-cyan);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        min-height: 80vh;
+        height:auto;
+        margin: 3rem 0;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .sedan {
+        border-radius: 2% 2% 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 2% 2%;;
+    }
+
+    p {
+        padding-right: 1rem;
+    }
+
+    button {
+        margin-top: 1.5rem;
+    }
+}
