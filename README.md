@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://frontendmentor-3columncardcompenent.vercel.app/)
-- GitHub Files: [Add live site URL here](https://github.com/spenceraevans/frontendmentor-3columncardcompenent)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-css-flexbox-B1mbk6KI5)
+- Live Site URL: [Live site](https://frontendmentor-3columncardcompenent.vercel.app/)
+- GitHub Files: [GitHub](https://github.com/spenceraevans/frontendmentor-3columncardcompenent)
 
 ## My process
 
